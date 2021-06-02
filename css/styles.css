@@ -1,7 +1,56 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
 }
 
 img {
   width: 300px;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+body {
+  padding: 100px;
+}
+
+.box1 {
+  float: left;
+  width: 50%;
+  border: solid 5px black;
+  background-color: cadetblue;
+  font-size: x-large;
+  padding: 10px;
+}
+
+.box2 {
+  float: left;
+  width: 50%;
+  border: solid 5px black;
+  background-color: rgb(165, 55, 150);
+  font-size: x-large;
+  padding: 10px;
+}
+
+.box3 {
+  float: left;
+  width: 50%;
+  border: solid 5px black;
+  background-color: rgb(30, 111, 131);
+  font-size: x-large;
+  padding: 10px;
+}
+
+.box4 {
+  float: left;
+  width: 50%;
+  border: solid 5px black;
+  background-color: rgb(95, 160, 95);
+  font-size: x-large;
+  padding: 10px;
 }
